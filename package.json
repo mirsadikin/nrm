@@ -1,0 +1,42 @@
+{
+  "name": "rn-mongo",
+  "version": "1.0.0",
+  "description": "This is \"The\" project",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --exec babel-node app.js --ignore public/",
+    "dev" : "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirsadikin/nrm.git"
+  },
+  "keywords": [
+    "enerem"
+  ],
+  "author": "mirsas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirsadikin/nrm/issues"
+  },
+  "homepage": "https://github.com/mirsadikin/nrm#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.18.1",
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^3.11.0"
+  }
+}
